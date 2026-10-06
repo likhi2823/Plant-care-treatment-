@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f8e9;
+    color: #333;
+}
+
+header {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav {
+    background: #1b5e20;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #c8e6c9;
+}
+
+.hero h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+button {
+    background: #388e3c;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1b5e20;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #2e7d32;
+    margin-bottom: 25px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 220px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #aaa;
+}
+
+.card h3 {
+    color: #388e3c;
+    margin-bottom: 10px;
+}
+
+.treatment-box {
+    background: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #aaa;
+}
+
+select {
+    padding: 10px;
+    margin: 15px;
+    width: 80%;
+}
+
+#result {
+    margin-top: 20px;
+    color: #1b5e20;
+    font-weight: bold;
+}
+
+footer {
+    background: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
