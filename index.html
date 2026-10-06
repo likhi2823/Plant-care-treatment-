@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Care & Treatment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🌱 Plant Care & Treatment</h1>
+        <p>Take care of your plants, keep them healthy!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#care">Plant Care</a>
+        <a href="#treatment">Treatment</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home" class="hero">
+        <h2>Welcome to Plant Care</h2>
+        <p>Learn how to identify plant problems and give the right treatment.</p>
+        <button onclick="showMessage()">Start Caring 🌿</button>
+    </section>
+
+    <section id="care">
+        <h2>🌿 Basic Plant Care</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>💧 Watering</h3>
+                <p>Water your plant according to its needs. Avoid overwatering.</p>
+            </div>
+
+            <div class="card">
+                <h3>☀️ Sunlight</h3>
+                <p>Give your plants the right amount of sunlight for healthy growth.</p>
+            </div>
+
+            <div class="card">
+                <h3>🌱 Soil</h3>
+                <p>Use healthy and nutrient-rich soil for better plant growth.</p>
+            </div>
+
+            <div class="card">
+                <h3>🌾 Fertilizer</h3>
+                <p>Use suitable fertilizer to provide essential nutrients.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="treatment">
+        <h2>🩺 Plant Treatment</h2>
+
+        <div class="treatment-box">
+            <label>Select a plant problem:</label>
+
+            <select id="problem">
+                <option value="">-- Select Problem --</option>
+                <option value="yellow">Yellow Leaves</option>
+                <option value="spots">Brown Spots</option>
+                <option value="pests">Pests</option>
+                <option value="wilting">Wilting</option>
+            </select>
+
+            <button onclick="getTreatment()">Get Treatment</button>
+
+            <p id="result"></p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>📞 Contact</h2>
+        <p>For more information about plant care, contact us.</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Plant Care & Treatment | 🌱 Grow Green</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
